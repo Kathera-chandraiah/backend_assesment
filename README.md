@@ -46,48 +46,51 @@ Tech Stack:
 
 
 ### Database connections in application.properties file
-spring.datasource.url=jdbc:mysql://localhost:3306/[database_name]
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-spring.datasource.username=[user_name]
-spring.datasource.password=[password]
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-spring.jpa.show-sql=true
+-spring.datasource.url=jdbc:mysql://localhost:3306/[database_name]
+-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+-spring.datasource.username=[user_name]
+-spring.datasource.password=[password]
+-spring.jpa.hibernate.ddl-auto=update
+-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+-spring.jpa.show-sql=true
 
 # Instructions to Run
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Kathera-chandraiah/backend_assesment.git
 
 2. Navigate to the project directory:
-
-cd <project-directory>
-
-
+```
+cd <project_directory>
+```
+ 
 3. Build the project using Maven:
-
+```
 mvn clean install
-
+```
 
 4. Run the Spring Boot application:
 
+```
 mvn spring-boot:run
+```
 
 
-5. Application runs at: http://localhost:8080
+5. Application runs at: ```http://localhost:8080```
 
 ### Postmapping sample data for create new organizer:
 
 ## http://localhost:8080/api/organizers
-
+```
 {
     "name":"tharun",
     "email":"tharun@gmail.com",
     "phone":"9955678956",
     "businessType":"E_COMMERCE"
 }
-
-#Response:
+```
+```
+##Response:
 {
     "name": "tharun",
     "email": "tharun@gmail.com",
@@ -95,9 +98,11 @@ mvn spring-boot:run
     "businessType": "E_COMMERCE",
     "organizerCode": "ORG00006"
 }
+```
 ### Getmapping for get organizer by id
 
  ## http://localhost:8080/api/organizer/6
+ ```
  #Response
 {
     "name": "tharun",
@@ -106,10 +111,10 @@ mvn spring-boot:run
     "businessType": "E_COMMERCE",
     "organizerCode": "ORG00006"
 }
-
+```
 ### Getmapping for seach
 ## http://localhost:8080/api/organizer/search?q=cha
-
+```
 {
     "content": [
         {
@@ -183,5 +188,6 @@ mvn spring-boot:run
     "totalElements": 4,
     "totalPages": 1
 }
+```
 
 
