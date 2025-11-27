@@ -60,8 +60,9 @@ Tech Stack:
 
 # Instructions to Run
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kathera-chandraiah/backend_assesment.git
+```bash
+git clone https://github.com/Kathera-chandraiah/backend_assesment.git
+````
 
 2. Navigate to the project directory:
 ```
