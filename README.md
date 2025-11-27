@@ -46,13 +46,17 @@ Tech Stack:
 
 
 ### Database connections in application.properties file
--spring.datasource.url=jdbc:mysql://localhost:3306/[database_name]
--spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
--spring.datasource.username=[user_name]
--spring.datasource.password=[password]
--spring.jpa.hibernate.ddl-auto=update
--spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
--spring.jpa.show-sql=true
+
+```
+ spring.datasource.url=jdbc:mysql://localhost:3306/[database_name]
+ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+ spring.datasource.username=[user_name]
+ spring.datasource.password=[password]
+ spring.jpa.hibernate.ddl-auto=update
+ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+ spring.jpa.show-sql=true
+
+```
 
 # Instructions to Run
 1. Clone the repository:
