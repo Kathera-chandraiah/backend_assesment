@@ -81,6 +81,8 @@ mvn spring-boot:run
 ### Postmapping sample data for create new organizer:
 
 ## http://localhost:8080/api/organizers
+
+### Sample data
 ```
 {
     "name":"tharun",
@@ -89,8 +91,9 @@ mvn spring-boot:run
     "businessType":"E_COMMERCE"
 }
 ```
+###Response
 ```
-##Response:
+
 {
     "name": "tharun",
     "email": "tharun@gmail.com",
@@ -102,8 +105,10 @@ mvn spring-boot:run
 ### Getmapping for get organizer by id
 
  ## http://localhost:8080/api/organizer/6
+
+  ###Response
  ```
- #Response
+
 {
     "name": "tharun",
     "email": "tharun@gmail.com",
@@ -114,6 +119,8 @@ mvn spring-boot:run
 ```
 ### Getmapping for seach
 ## http://localhost:8080/api/organizer/search?q=cha
+
+### Response
 ```
 {
     "content": [
