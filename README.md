@@ -7,7 +7,7 @@ The goal is to implement backend APIs in Spring Boot for managing organizers and
 
 Tech Stack:
  - Java 17
-- Spring Boot (3.x preferred)
+- Spring Boot 4.0.0
 - Spring Web, Spring Data JPA
 - MySQL
 - Maven
