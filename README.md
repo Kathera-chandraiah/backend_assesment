@@ -10,7 +10,7 @@ Tech Stack:
 - Spring Boot (3.x preferred)
 - Spring Web, Spring Data JPA
 - MySQL
-- Maven/Gradle
+- Maven
 
   
  Data Model (Organization):
